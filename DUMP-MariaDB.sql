@@ -44,7 +44,7 @@ CREATE TABLE `klient` (
 
 LOCK TABLES `klient` WRITE;
 /*!40000 ALTER TABLE `klient` DISABLE KEYS */;
-INSERT INTO `klient` VALUES (1,'Andrzej','Piaskowski','78574635161','CBD361731','1937462713','91-123','Słowackiego','34','12','465738162'),(2,'Patryk','Vypowski','75637183712','TAD384736',NULL,'81-230','Z.Martyniuka','12','32','756182736'),(3,'Agnieszka','Ziomkowska','99384756132','ADG127384',NULL,'36-489','Szklankowska','23','12','884838192'),(4,'Patryk','Litowski','83748371623','CBC873183',NULL,'18-180','Zimowska','32','83d','581920391'),(5,'Józef','Oliwierowski','0054326784','BYC324712',NULL,'18-180','Brzozowa','21','10','564712345'),(6,'Zbigniew','Troczyński','93182389412','DFC831912',NULL,'91-112','Kędzickiego','62',NULL,'654881321'),(7,'Oliwier','Patrykowski','99837182731','BYC193093',NULL,'84-192','Czelągowska','3','81','757483721'),(8,'Szymon','Szymowski','00293847123','BCA098321',NULL,'83-330','Brzozowa','32',NULL,'647938123'),(9,'Patrycja','Patowska','87381928341','CBG738193','8391039481','73-148','Pehapowska','4','10','532986123'),(10,'Zbyszek','Złociński','93102934122','DFC831481',NULL,'18-180','Kędzickiego','7','18','881839129'),(11,'Magdalena','Disk','86765432900','BAB009567','9980957654','15-098','Żelkowa','92',NULL,'841928318'),(12,'Jakub','Jusiowski','29130612345','YHB777713','9897231412',' 78-98','Pasiborska','12','43','647182734'),(13,'Adrianna','Lis','928394102','CBV817321','1928374581','91-129','Samsungowa','98','12','647123471'),(14,'Jan','Skarpeta','99381231931','GBC983712','1029384756','43-123','Wrzosowa','19','12','519203451'),(15,'Zenon','Kowalewicz','03948174612','IPK481321','8574612730','91-120','Krakowska','18','48','881238451'),(16,'Angelika','Orędowska','83748172314','HBC817312',NULL,'83-123','Przecinkowska','23','1','581920293'),(17,'Daniel','Klin','92837123841','ABY172384',NULL,'83-123','Przecinkowska','24','1','518093142'),(18,'Anabella','Klinczak','84918294812','HBC819384','8439128321','83-212','Warneńska','32','5','581928341'),(19,'Cycylia','Dąbrowska','93182736471','FCB818312','1839401928','81-112','Dyskietkowa','13',NULL,'519012345'),(20,'Renata','Długopis','99381234561','CGA647123','2837491283','75-170','Zeszytowa','77','12','839123841'),(21,'Hanna','Szymkiewicz','91827364712','TYC102934',NULL,'24-120','Lenowska','14','93','928374810'),(22,'Angelika','Onca','93840129412','CBG819384','8817374810','81-203','Rymanowska','93','12','847182734'),(23,'Agnieszka','Trąbkowska','99283746172','CBA938129','9182734819','71-127','Piernikowa','93','12','712348012'),(24,'Zenon','Czmykowski','67102934512','CBG128938',NULL,'83-330','Zawadzkiego','19',NULL,'883918231'),(25,'Paweł','Szklanka','99102938471','BAB182930','8419283918','83-120','Kasztanowa','28','7','777234730');
+INSERT INTO `klient` (`id`, `imie`, `nazwisko`, `nr_pesel`, `nr_dowodu`, `NIP`, `kod_pocztowy`, `ulica`, `nr_domu`, `nr_lokalu`, `nr_tel`) VALUES (1, 'Andrzej', 'Piaskowski', '78574635161', 'CBD361731', '1937462713', '80-280', 'Słowackiego', '34', '12', '465738162'),(2, 'Patryk', 'Vypowski', '75637183712', 'TAD384736', NULL, '80-280', 'Z.Martyniuka', '12', '32', '756182736'),(3, 'Agnieszka', 'Ziomkowska', '99384756132', 'ADG127384', NULL, '80-280', 'Szklankowska', '23', '12', '884838192'),(4, 'Patryk', 'Litowski', '83748371623', 'CBC873183', NULL, '18-180', 'Zimowska', '32', '83d', '581920391'),(5, 'Józef', 'Oliwierowski', '0054326784', 'BYC324712', NULL, '80-280', 'Brzozowa', '21', '10', '564712345'),(6, 'Zbigniew', 'Troczyński', '93182389412', 'DFC831912', NULL, '91-112', 'Kędzickiego', '62', NULL, '654881321'),(7, 'Oliwier', 'Patrykowski', '', 'BYC193093', NULL, '80-280', 'Czelągowska', '3', '81', '757483721'),(8, 'Szymon', 'Szymowski', '00293847123', 'BCA098321', NULL, '83-330', 'Brzozowa', '32', NULL, '647938123'),(9, 'Patrycja', 'Patowska', '87381928341', 'CBG738193', '8391039481', '80-280', 'Pehapowska', '4', '10', '532986123'),(10, 'Zbyszek', 'Złociński', '93102934122', 'DFC831481', NULL, '18-180', 'Kędzickiego', '7', '18', '881839129'),(11, 'Magdalena', 'Disk', '86765432900', 'BAB009567', '9980957654', '80-280', 'Żelkowa', '92', NULL, '841928318'),(12, 'Jakub', 'Jusiowski', '29130612345', 'YHB777713', '9897231412', '80-032', 'Pasiborska', '12', '43', '647182734'),(13, 'Adrianna', 'Lis', '928394102', 'CBV817321', '1928374581', '91-129', 'Samsungowa', '98', '12', '647123471'),(14, 'Jan', 'Skarpeta', '99381231931', 'GBC983712', '1029384756', '80-032', 'Wrzosowa', '19', '12', '519203451'),(15, 'Zenon', 'Kowalewicz', '03948174612', 'IPK481321', '8574612730', '91-120', 'Krakowska', '18', '48', '881238451'),(16, 'Angelika', 'Orędowska', '83748172314', 'HBC817312', NULL, '83-123', 'Przecinkowska', '23', '1', '581920293'),(17, 'Daniel', 'Klin', '92837123841', 'ABY172384', NULL, '83-123', 'Przecinkowska', '24', '1', '518093142'),(18, 'Anabella', 'Klinczak', '84918294812', 'HBC819384', '8439128321', '83-212', 'Warneńska', '32', '5', '581928341'),(19, 'Cycylia', 'Dąbrowska', '93182736471', 'FCB818312', '1839401928', '81-112', 'Dyskietkowa', '13', NULL, '519012345'),(20, 'Renata', 'Długopis', '99381234561', 'CGA647123', '2837491283', '80-032', 'Zeszytowa', '77', '12', '839123841'),(21, 'Hanna', 'Szymkiewicz', '91827364712', 'TYC102934', NULL, '24-120', 'Lenowska', '14', '93', '928374810'),(22, 'Angelika', 'Onca', '93840129412', 'CBG819384', '8817374810', '81-203', 'Rymanowska', '93', '12', '847182734'),(23, 'Agnieszka', 'Trąbkowska', '99283746172', 'CBA938129', '9182734819', '71-127', 'Piernikowa', '93', '12', '712348012'),(24, 'Zenon', 'Czmykowski', '67102934512', 'CBG128938', NULL, '83-330', 'Zawadzkiego', '19', NULL, '883918231'),(25, 'Paweł', 'Szklanka', '99102938471', 'BAB182930', '8419283918', '83-120', 'Kasztanowa', '28', '7', '777234730'),(26, 'Zbigniew', 'Trzmiel', '91928391029', 'CFA718293', '1920394819', '81-210', 'Brzozowa', '81', '12d', '8819203918');
 /*!40000 ALTER TABLE `klient` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -198,8 +198,10 @@ UNLOCK TABLES;
 /*!50003 SET sql_mode              = 'NO_AUTO_VALUE_ON_ZERO' */ ;
 DELIMITER ;;
 /*!50003 CREATE*/ /*!50017 DEFINER=`root`@`localhost`*/ /*!50003 TRIGGER `after_buy_car_delete` BEFORE INSERT ON `transakcje`
- FOR EACH ROW BEGIN 
-DELETE FROM samochod_sprzedany;
+ FOR EACH ROW BEGIN 
+
+DELETE FROM samochod_sprzedany;
+
 END */;;
 DELIMITER ;
 /*!50003 SET sql_mode              = @saved_sql_mode */ ;
@@ -216,10 +218,14 @@ DELIMITER ;
 /*!50003 SET sql_mode              = 'NO_AUTO_VALUE_ON_ZERO' */ ;
 DELIMITER ;;
 /*!50003 CREATE*/ /*!50017 DEFINER=`root`@`localhost`*/ /*!50003 TRIGGER `after_buy_car` AFTER INSERT ON `transakcje`
- FOR EACH ROW BEGIN 
-
-INSERT INTO samochod_sprzedany (SELECT samochod.* FROM samochod INNER JOIN transakcje WHERE samochod.id = transakcje.id_samochodu AND transakcje.rodzaj_trans = 'KUPNO');
-
+ FOR EACH ROW BEGIN 
+
+
+
+INSERT INTO samochod_sprzedany (SELECT samochod.* FROM samochod INNER JOIN transakcje WHERE samochod.id = transakcje.id_samochodu AND transakcje.rodzaj_trans = 'KUPNO');
+
+
+
 END */;;
 DELIMITER ;
 /*!50003 SET sql_mode              = @saved_sql_mode */ ;

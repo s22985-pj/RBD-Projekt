@@ -11,8 +11,8 @@ WHERE transakcje.rodzaj_trans="KUPNO";
 INSERT INTO klient 
 (id, imie, nazwisko, nr_pesel, nr_dowodu,
 NIP, kod_pocztowy, ulica, nr_domu, nr_lokalu, nr_tel)
-VALUES ('27', 'Zbigniew', 'Trzmiel', '91928391029', 'CFA718293',
-'1923948192', '81-210', 'Brzozowa', '81', '12d', '8819203918');
+VALUES ('28', 'Andrzej', 'Żwirowski', '91838192831', 'CFA718394',
+'1923948192', '81-210', 'Modrzewiowa', '8', '1d', '8819203311');
 
 
 -- TRIGGER -- 
